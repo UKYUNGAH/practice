@@ -1,0 +1,135 @@
+@import "reset.css";
+
+
+
+
+/* =============================================== main =============================================== */
+.container{
+    width: 100%;
+}
+
+/* ---------- header ---------- */
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #000;
+    position: sticky;
+    background: #fff;
+    top: 0;
+    left: 0%;
+}
+.header .h_left{
+    flex: 1;
+    padding-left: 10px;
+}
+.header h1{
+    flex: 1;
+}
+.header h1 a{
+    display: block;
+    width: 184px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header h1 img{
+    width: 100%;
+}
+.header .h_right{
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+/* ---------- nav ---------- */
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px 10px;
+    border-bottom: 1px solid #000;
+    position: sticky;
+    top: 58px;
+    background: #fff;
+    border-right: 1px solid #000;
+}
+
+/* ---------- product ---------- */
+.product ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product .list_wrap{
+    width: 25%;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+}
+.product .list_top{
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+.product .list_top a{
+    min-height: 414px;
+    text-align:  center;
+}
+.product .list_top a img{
+    width: 100%;
+}
+.product .list_bottom{
+    min-height: 150px;
+    padding: 13px 15px;
+}
+.product .list_bottom .list_brand{
+    margin-bottom: 5px;
+}
+.product .list_bottom .list_title{
+    margin-bottom: 5px;
+}
+.product .list_bottom .list_pay{
+    font-weight: 500; 
+    margin-bottom: 5px;
+}
+.product .list_bottom .list_status{
+    width: 70px;
+}
+.product .list_bottom .list_status img{
+    width: 100%;}
+.product_more{
+    margin: 20px auto;
+    text-align: center;
+}
+.product_more button{
+    padding: 10px 30px;
+    border: 1px solid #000;
+}
+
+/* ---------- footer ---------- */
+.site-footer{
+    width: 100%;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+.site-footer .footer_content{
+    width: 80%;
+}
+.site-footer .footer_content p{
+    display: inline-block;
+    margin-bottom: 8px;
+    width: 100%;
+}
+.site-footer .footer_content a{
+    display: inline-block;
+}
+.site-footer .footer-right{
+    width: 20%;
+    text-align: right;
+}
