@@ -1,0 +1,83 @@
+/* =============================================== header & footer =============================================== */
+
+/* ---------- header ---------- */
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #000;
+    position: sticky;
+    background: #fff;
+    top: 0;
+    left: 0%;
+}
+.header .h_left{
+    flex: 1;
+    padding-left: 10px;
+}
+.header h1{
+    flex: 1;
+}
+.header h1 a{
+    display: block;
+    width: 184px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header h1 img{
+    width: 100%;
+}
+.header .h_right{
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+/* ---------- footer ---------- */
+.site-footer{
+    width: 100%;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+.site-footer .footer_content{
+    width: 80%;
+}
+.site-footer .footer_content p{
+    display: inline-block;
+    margin-bottom: 8px;
+    width: 100%;
+}
+.site-footer .footer_content a{
+    display: inline-block;
+}
+.site-footer .footer-right{
+    width: 20%;
+    text-align: right;
+}
+
+/* ---------- cart number ---------- */
+.nav_cart{
+    display: flex;
+    align-items: center;
+}
+.cart_num{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    margin-left: 2px;
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+    
+}
