@@ -35,21 +35,11 @@
     gap: 20px;
     margin-right: 25px;
 }
-.header .h-right a{
-    
-}
 
 /* ---------- footer ---------- */
 .site-footer{
     width: 100%;
-    margin: 0 24px 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-}
-.site-footer .footer-content{
-    width: 80%;
+    margin: 0 0 80px 24px;
 }
 .site-footer .footer-content p{
     display: inline-block;
