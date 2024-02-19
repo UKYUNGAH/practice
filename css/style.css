@@ -10,9 +10,9 @@
 /* ---------- nav ---------- */
 .nav{
     position: sticky;
-    top: 61px;
+    top: 73px;
 }
-.nav_wrap{
+.nav-wrap{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,33 +21,34 @@
     background: #fff;
 
 }
-.nav_wrap .nav_left{
+.nav-wrap .nav-left{
     width: 75%;
     display: flex;
     align-items: center;
     gap: 15px;
-    padding: 10px 0;
-    margin-left: 30px;
+    padding: 11px 0;
+    margin-left: 24px;
     background: #fff;
 }
-.nav_wrap .nav_left a{
+.nav-wrap .nav-left a{
 
 }
-.nav_wrap .nav_right{
+.nav-wrap .nav-right{
     width: 10%;
     padding: 10px 0;
     background: #000;
+    border: 1px solid #000;
 }
-.nav_wrap .nav_right a{
+.nav-wrap .nav-right a{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: end;
     color: #fff;
 }
-.nav_wrap .nav_right a img{
+.nav-wrap .nav-right a img{
     width: 18px;
-    margin-right: 15px;
+    margin-right: 11px;
 }
 
 /* ---------- product ---------- */
@@ -55,47 +56,47 @@
     display: flex;
     flex-wrap: wrap;
 }
-.product .list_wrap{
+.product .list-wrap{
     width: 25%;
     border-right: 1px solid #000;
     border-bottom: 1px solid #000;
     box-sizing: border-box;
 }
-.product .list_top{
+.product .list-top{
     width: 100%;
     border-bottom: 1px solid #000;
 }
-.product .list_top a{
+.product .list-top a{
     text-align:  center;
 }
-.product .list_top a img{
+.product .list-top a img{
     width: 100%;
     /* object-fit: cover; */
 }
-.product .list_bottom{
+.product .list-bottom{
     min-height: 150px;
-    padding: 13px 15px;
+    padding: 24px;
 }
-.product .list_bottom .list_brand{
-    margin-bottom: 5px;
+.product .list-bottom .list-brand{
+    margin-bottom: 7px;
 }
-.product .list_bottom .list_title{
-    margin-bottom: 5px;
+.product .list-bottom .list-title{
+    font-size: 12px;
+    margin-bottom: 12px;
 }
-.product .list_bottom .list_pay{
-    font-weight: 500; 
-    margin-bottom: 5px;
+.product .list-bottom .list-pay{
+    margin-bottom: 8px;
 }
-.product .list_bottom .list_status{
-    width: 70px;
+.product .list-bottom .list-status{
+    width: 66px;
 }
-.product .list_bottom .list_status img{
+.product .list-bottom .list-status img{
     width: 100%;}
-.product_more{
-    margin: 20px auto;
+.product-more{
+    margin: 48px auto 88px;
     text-align: center;
 }
-.product_more button{
-    padding: 10px 30px;
+.product-more button{
+    padding: 10px 25px;
     border: 1px solid #000;
 }
