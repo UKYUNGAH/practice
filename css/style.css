@@ -9,15 +9,45 @@
 
 /* ---------- nav ---------- */
 .nav{
+    position: sticky;
+    top: 61px;
+}
+.nav_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    background: #fff;
+
+}
+.nav_wrap .nav_left{
+    width: 75%;
     display: flex;
     align-items: center;
     gap: 15px;
-    padding: 5px 10px;
-    border-bottom: 1px solid #000;
-    position: sticky;
-    top: 58px;
+    padding: 10px 0;
+    margin-left: 30px;
     background: #fff;
-    border-right: 1px solid #000;
+}
+.nav_wrap .nav_left a{
+
+}
+.nav_wrap .nav_right{
+    width: 10%;
+    padding: 10px 0;
+    background: #000;
+}
+.nav_wrap .nav_right a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    color: #fff;
+}
+.nav_wrap .nav_right a img{
+    width: 24px;
+    margin-right: 15px;
 }
 
 /* ---------- product ---------- */
